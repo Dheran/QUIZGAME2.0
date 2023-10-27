@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg custom-navbar1">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Quizzes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Ranking</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Username</a>
+            </li>
+        </ul>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg custom-navbar2">
+        <div class="container">
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Search Quiz" id="search-quiz">
+            </form>
+            <div class="ml-auto">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit" id="join-quiz"
+                    style="background-color: #5063BA;">Join Quiz</button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="body">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-6 col-md-6 col-lg-4">
+                    <div class="ml-auto">
+                        <button class="btn btn-primary btn-lg btn-block mb-4 custom-button" data-toggle="collapse"
+                            data-target="#expandableFinished" style="background-color: #046939; color: #939AB0;">Finished</button>
+                        <div id="expandableFinished" class="collapse custom-collapse">
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">Cybersecurity Smarts
+                            </button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">Java Jargon Quiz
+                            </button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">CSS Starter Quiz</button>
+                        </div>
+
+                        <button class="btn btn-primary btn-lg btn-block mb-4 custom-button" data-toggle="collapse"
+                            data-target="#expandableAllQuizzes" style="background-color: #624335; color: #939AB0;">ALL QUIZZES</button>
+                        <div id="expandableAllQuizzes" class="collapse custom-collapse">
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">Python Puzzlers</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">HTML Essentials Quiz</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">JavaScript Fundamentals</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">CSS Challenges</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">C++ Mastery Test</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">Ruby on Rails Quiz</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">PHP Programming Quiz</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">Swift Language Proficiency</button>
+                            <button class="btn btn-primary btn-lg btn-block mb-4 btn-quiz">SQL Database Knowledge</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

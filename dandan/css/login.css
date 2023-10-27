@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .image {
+    background-image: url('../images/lg2.png'); /* Path to your background image */
+    background-size: 35%;
+    background-position: 0px;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: bottom;
+    height: 100%;
+}
+.image p{
+    color: #fff;
+}
+  
+  .login {
+    background: #353d62;
+    color: #fff;
+    height: 100vh;
+  }
+
+  .back-link {
+    color: #8692A6; /* Set the text color */
+    text-decoration: none; /* Remove the underline */
+    font-weight: bold; /* Make the text bold */
+    margin-right: 900px;
+    
+  }
+  
+  .back-link:hover {
+    color: #ffffff; /* Change text color on hover */
+    transition: color 0.3s; /* Smooth transition for the color change */
+  }
+  
+
+.login h1 {
+    margin-top: 100px;
+    font-size: 38px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.login p{
+    font-size: 18px;
+    color: #8692A6;
+    text-align: center;
+   
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    color: #8692A6;
+    margin-left: 300px;
+    margin-bottom: 10px;
+}
+
+.form-control {
+    margin-left: 300px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #8692A6;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+}
+.form-control::placeholder{
+    color:#8692A6;
+}
+
+.btn-primary {
+    background-color: #073DFD;
+    color: #fff;
+    width: 400px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 300px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Add a custom style for the input fields when they have focus */
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.form-check{
+    margin-left: 300px;
+
+}
+.form-check p{
+    font-size: 14px;
+
+}

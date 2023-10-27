@@ -1,0 +1,83 @@
+
+        body {
+            background-color: #0E1947;
+            overflow-x: hidden; /* Hide the horizontal scrollbar */
+        }
+
+        .custom-navbar1 {
+            background-color: #353D62;
+            overflow-x: hidden; /* Hide the horizontal scrollbar */
+        }
+
+        .custom-navbar2 {
+            background-color: #262D4F;
+            overflow-x: hidden; /* Hide the horizontal scrollbar */
+        }
+        body,
+        .navbar a,
+        .form-control,
+        .btn {
+            font-family: "Inter", sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            color: #FFF; /* Font color added */
+        }
+
+        .navbar a {
+            text-decoration: none;
+        }
+
+        .navbar .custom-navbar1 .nav-item {
+            margin-right: 100px;
+        }
+
+        .btn {
+            border: none;
+        }
+
+        .custom-button {
+            background-color: #046939;
+            color: #939AB0;
+        }
+
+        .btn-quiz {
+            background-color: #353D62;
+            color: #939AB0;
+        }
+
+        .btn-all-quizzes {
+            background-color: #624335;
+            color: #939AB0;
+        }
+
+        .custom-collapse {
+            background-color: transparent;
+
+            padding: 20px;
+            text-align: left;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .custom-collapse {
+            background-color: transparent;
+            padding: 20px;
+            text-align: left;
+            max-height: 200px;
+            overflow-y: auto;
+            overflow-x: hidden; /* Hide the horizontal scrollbar if it appears */
+        }
+
+        /* Add the following CSS to hide the vertical scrollbar */
+        .custom-collapse::-webkit-scrollbar {
+            width: 0.5em;
+        }
+
+        .custom-collapse::-webkit-scrollbar-thumb {
+            background-color: #888;
+        }
+
+        .custom-collapse::-webkit-scrollbar-thumb:hover {
+            background-color: #555;
+        }

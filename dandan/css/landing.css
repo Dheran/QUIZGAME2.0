@@ -1,0 +1,132 @@
+body{
+    background-color: #353D62;
+
+}
+p{
+    color: #8692A6;
+    font-weight: 700;
+}
+h1{
+    color: #FFF;
+}
+.custom-navbar {
+    background-color: #353D62;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.navbar-text {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-brand {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.navbar-nav {
+    justify-content: center;
+    flex-direction: row;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 10px; /* Adjust the margin to control spacing between nav items */
+}
+.nav-link {
+    color: #939AB0; /* Initial color */
+    transition: color 0.3s; /* Add a smooth transition effect */
+}
+
+.custom-button-container {
+    display: flex;
+    align-items: center;
+}
+
+.custom-button {
+    border-radius: 100px;
+    color: #FFF;
+    background-color: #2c41f8;
+}
+#login-button{
+    margin-right: 10px;
+}
+
+ /* this is the content */
+
+ .content-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #353D62;
+    position: relative;
+
+}
+
+.content {
+    margin-left: 120px;
+    margin-top: 200px;
+    color: #ffffff;
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.lfquiz {
+    color: #fff;
+    margin-left: 100px;
+    background-color: #2c41f8;
+    border-radius: 100px;
+    padding: 12px 20px; /* Adjust padding for a larger button */
+    font-size: 20px; /* Adjust font size for larger text */
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+
+.image-container {
+    flex: 1;
+    
+    position: relative;
+    z-index: 2;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+/* login and signup modal */
+.modal-content{
+    margin: auto;
+    background-color: #353D62;
+    width: 1000px;
+    height: 100%;
+    justify-content: center;
+}
+.modal-title{
+    color: #FFF;
+}
+.form-group{
+    color: #696F79;
+}
+.form-control{
+    padding: 12px 20px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid #696F79;
+    height: 50px;
+    width: 420px;
+    margin-left: 20px;
+
+}
